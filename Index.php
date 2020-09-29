@@ -17,9 +17,11 @@ declare(strict_types=1);
 // Only show the latest 20 posts.
 
 
-require('Model/Post.php');
+// require('Model/Post.php');
 require('Controller/PostLoader.php');
 require('Model/UserValidator.php');
+// require('Model/Guestbook.php');
+
 
 // HTML
 require('View/Main.php');
