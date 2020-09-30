@@ -19,4 +19,24 @@ class Post
         $this->author = $author;
         $this->content = $content;
     }
+
+    public function getDate()
+    {
+        return $this->date;
+    }
+
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
+    public function getAuthor()
+    {
+        return $this->author;
+    }
+
+    public function getContent()
+    {
+        return $this->content;
+    }
 }
